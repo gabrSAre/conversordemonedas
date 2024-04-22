@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43fd8290-3f06-4f71-b833-b271a298ddb9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conversordemonedas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/challencealura/conversordemonedas/BuscadorDeMonedas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/challencealura/conversordemonedas/Scaners.java" afterDir="false" />
-    </list>
+    <list default="true" id="43fd8290-3f06-4f71-b833-b271a298ddb9" name="Changes" comment="Se crea el proyecto y se genera la creacion de una clase especifica para los Scanners,se genera otra clase especifica para buscar las monedas en a API, y se crea la clase Main para iniciar las pruebas de busqueda." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +48,19 @@
       <option name="presentableId" value="Default" />
       <updated>1713739317156</updated>
     </task>
+    <task id="LOCAL-00001" summary="Se crea el proyecto y se genera la creacion de una clase especifica para los Scanners,se genera otra clase especifica para buscar las monedas en a API, y se crea la clase Main para iniciar las pruebas de busqueda.">
+      <option name="closed" value="true" />
+      <created>1713745248336</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713745248336</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Se crea el proyecto y se genera la creacion de una clase especifica para los Scanners,se genera otra clase especifica para buscar las monedas en a API, y se crea la clase Main para iniciar las pruebas de busqueda." />
+    <option name="LAST_COMMIT_MESSAGE" value="Se crea el proyecto y se genera la creacion de una clase especifica para los Scanners,se genera otra clase especifica para buscar las monedas en a API, y se crea la clase Main para iniciar las pruebas de busqueda." />
   </component>
 </project>
