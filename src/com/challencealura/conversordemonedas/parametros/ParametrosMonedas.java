@@ -1,4 +1,4 @@
-package com.challencealura.conversordemonedas;
+package com.challencealura.conversordemonedas.parametros;
 
 public class ParametrosMonedas {
     double valorConvertido;
@@ -23,13 +23,18 @@ public class ParametrosMonedas {
 
     @Override
     public String toString() {
-        return "( " +
-                "El valor "+ valorAconvertir + " " +
-                "[" + monedaOrigen + "]"+
-                " corresponde al valor final de " +
-                "=>>> " + valorConvertido + " " +
-                "[" + monedaDestino + "]" +
-                " )";
+        return """
+                ( El valor %.2f [%s] corresponde al valor final de =>>> %.2f [%s] )
+                """.formatted(valorAconvertir,monedaOrigen,valorConvertido,monedaDestino);
     }
 }
+
+
+      /*  "( " +
+        "El valor "+ valorAconvertir + " " +
+        "[" + monedaOrigen + "]"+
+        " corresponde al valor final de " +
+        "=>>> " + valorConvertido + " " +
+        "[" + monedaDestino + "]" +
+        " )";*/
 

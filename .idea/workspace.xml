@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43fd8290-3f06-4f71-b833-b271a298ddb9" name="Changes" comment="Se crea el proyecto y se genera la creacion de una clase especifica para los Scanners,se genera otra clase especifica para buscar las monedas en a API, y se crea la clase Main para iniciar las pruebas de busqueda." />
+    <list default="true" id="43fd8290-3f06-4f71-b833-b271a298ddb9" name="Changes" comment="Se crea el proyecto y se genera la creacion de una clase especifica para los Scanners,se genera otra clase especifica para buscar las monedas en a API, y se crea la clase Main para iniciar las pruebas de busqueda.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conversordemonedas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/conversordemonedas.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/challencealura/conversordemonedas/fusion/ConversorDeMonedas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/challencealura/conversordemonedas/fusion/ConversorDeMonedas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/challencealura/conversordemonedas/gson/BibliotecaGson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/challencealura/conversordemonedas/gson/BibliotecaGson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/challencealura/conversordemonedas/parametros/BuscadorDeMonedas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/challencealura/conversordemonedas/parametros/BuscadorDeMonedas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/challencealura/conversordemonedas/parametros/ParametrosExchangeApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/challencealura/conversordemonedas/parametros/ParametrosExchangeApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/challencealura/conversordemonedas/parametros/ParametrosMonedas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/challencealura/conversordemonedas/parametros/ParametrosMonedas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/challencealura/conversordemonedas/utilitarios/MensajesDeOpcion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/challencealura/conversordemonedas/utilitarios/MensajesDeOpcion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/challencealura/conversordemonedas/utilitarios/Scaners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/challencealura/conversordemonedas/utilitarios/Scaners.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,15 +25,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2fQhfoJiY7uqOdSCE66vXsogtls" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -34,11 +46,37 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Principal.executor": "Run",
+    "Application.PrincipalEnsayo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/GABRIEL SALGADO/Documents/Git/git-y-github/screen-match-3-master"
+    "last_opened_file_path": "C:/Users/GABRIEL SALGADO/Documents/Git/git-y-github/screen-match-3-master",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.Principal">
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Principal" />
+      <module name="conversordemonedas" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrincipalEnsayo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrincipalEnsayo" />
+      <module name="conversordemonedas" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Principal" />
+        <item itemvalue="Application.PrincipalEnsayo" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,11 +94,41 @@
       <option name="project" value="LOCAL" />
       <updated>1713745248336</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Se crea el proyecto y se genera la creacion de una clase especifica para los Scanners,se genera otra clase especifica para buscar las monedas en a API, y se crea la clase Main para iniciar las pruebas de busqueda.">
+      <option name="closed" value="true" />
+      <created>1713745366379</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713745366379</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Se crea el proyecto y se genera la creacion de una clase especifica para los Scanners,se genera otra clase especifica para buscar las monedas en a API, y se crea la clase Main para iniciar las pruebas de busqueda.">
+      <option name="closed" value="true" />
+      <created>1713745396541</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713745396541</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Se crea el proyecto y se genera la creacion de una clase especifica para los Scanners,se genera otra clase especifica para buscar las monedas en a API, y se crea la clase Main para iniciar las pruebas de busqueda." />
     <option name="LAST_COMMIT_MESSAGE" value="Se crea el proyecto y se genera la creacion de una clase especifica para los Scanners,se genera otra clase especifica para buscar las monedas en a API, y se crea la clase Main para iniciar las pruebas de busqueda." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.InputMismatchException" package="java.util" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

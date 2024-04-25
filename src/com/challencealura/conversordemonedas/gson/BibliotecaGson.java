@@ -1,4 +1,4 @@
-package com.challencealura.conversordemonedas;
+package com.challencealura.conversordemonedas.gson;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

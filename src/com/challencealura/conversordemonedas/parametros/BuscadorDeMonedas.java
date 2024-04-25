@@ -1,8 +1,4 @@
-package com.challencealura.conversordemonedas;
-
-import com.google.gson.FieldNamingPolicy;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
+package com.challencealura.conversordemonedas.parametros;
 
 import java.io.IOException;
 import java.net.URI;

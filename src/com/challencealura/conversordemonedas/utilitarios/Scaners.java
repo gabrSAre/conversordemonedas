@@ -1,4 +1,4 @@
-package com.challencealura.conversordemonedas;
+package com.challencealura.conversordemonedas.utilitarios;
 
 import java.util.Scanner;
 

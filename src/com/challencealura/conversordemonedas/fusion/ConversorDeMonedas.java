@@ -1,6 +1,12 @@
-package com.challencealura.conversordemonedas;
+package com.challencealura.conversordemonedas.fusion;
+
+import com.challencealura.conversordemonedas.gson.BibliotecaGson;
+import com.challencealura.conversordemonedas.parametros.BuscadorDeMonedas;
+import com.challencealura.conversordemonedas.parametros.ParametrosExchangeApi;
+import com.challencealura.conversordemonedas.parametros.ParametrosMonedas;
 
 import java.io.IOException;
+
 
 public class ConversorDeMonedas {
     public void conversorDeMonedas(String monedaOrigen , String modedaDestino ,double valor ){
@@ -21,7 +27,7 @@ public class ConversorDeMonedas {
             parametros.setValorAconvertir(valor);
 
 
-            //Instanciando la clase com.challencealura.conversordemonedas.BibliotecaGson
+            //Instanciando la clase com.challencealura.conversordemonedas.gson.BibliotecaGson
             BibliotecaGson gson = new BibliotecaGson();
 
             //Utilizando el record ParametrosExchangeApi, para la deserialización..................
@@ -36,6 +42,9 @@ public class ConversorDeMonedas {
 
         }catch (IllegalStateException e){
             System.out.println(e.getMessage());
+        }catch (Exception e){
+            System.out.println("Debe ingresar un valor numerico");
+
         }
 
     }
