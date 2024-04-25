@@ -30,11 +30,5 @@ public class ParametrosMonedas {
 }
 
 
-      /*  "( " +
-        "El valor "+ valorAconvertir + " " +
-        "[" + monedaOrigen + "]"+
-        " corresponde al valor final de " +
-        "=>>> " + valorConvertido + " " +
-        "[" + monedaDestino + "]" +
-        " )";*/
+
 
